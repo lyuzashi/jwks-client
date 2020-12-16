@@ -22,6 +22,7 @@ pub struct JwtKey {
     #[serde(default)] // https://github.com/jfbilodeau/jwks-client/issues/1
     pub e: String,
     pub kty: String,
+    #[serde(default)] // https://github.com/jfbilodeau/jwks-client/issues/1
     pub alg: String,
     #[serde(default)] // https://github.com/jfbilodeau/jwks-client/issues/1
     pub n: String,
